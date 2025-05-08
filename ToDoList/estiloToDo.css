@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    background: linear-gradient(45deg, indigo, darkorchid);
+}
+.container {
+    background: linear-gradient(45deg, indigo, darkorchid);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    border: solid white;
+}
+.formConteiner {
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+button {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: slategray;
+}
+li button {
+    margin: 10px;
+}
+.resConteiner {
+    color: wheat;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: slategray;
+    border-radius: 5px;
+    width: 300px;
+    min-height: 200px;
+    text-align: left; /* Mantém o alinhamento natural do texto */
+}
+#tarefaList li {
+    display: flex;
+    justify-content: space-between; /* Empurra o botão para o lado */
+    align-items: center;
+    padding: 8px;
+}
+.concluido {
+    text-decoration: line-through; /* Aplica o efeito de texto riscado */
+    color: indigo /* Deixa o texto mais apagado */
+}
+
+.tarefaConcluidaContainer {
+    border: 2px solid white;
+    padding: 15px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    width: 300px;
+    min-height: 200px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.concluido {
+    text-decoration: line-through;
+    color: rgb(218, 20, 20);
+}
+
+li::after {
+    font-size: 12px;
+    color: #e01212;
+}
+
+
+
+
+

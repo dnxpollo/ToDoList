@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aqui vai o conteúdo que descreve o site!">
+    <meta http-equiv = "X-UA-Compatible" content = "IE-EDGE">
+    <link rel="stylesheet" href="estiloToDo.css">
+    <title>To Do List</title>
+</head>
+<body>
+   <div class="container">
+    <div class="formConteiner">
+        <h1>Lista de Tarefas</h1>
+        <input type="text" id="tarefaInput" placeholder="Digite sua tarefa!">
+        <button id="addTarefa">Adicionar</button></br>
+        <input type="date" id="tarefaData"></br>
+    </div>
+    
+    <div class="resConteiner">
+        <h2>Tarefas Pendentes</h2>
+        <ul id="tarefaList"></ul>
+    </div>
+
+    <div class="tarefaConcluidaContainer">
+        <h2>Tarefas Concluídas</h2>
+        <ul id="tarefaConcluidaList"></ul>
+    </div>
+</div>
+    <script src="scriptToDo.js"></script>
+</body>
+</html>
